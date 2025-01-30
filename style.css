@@ -24,6 +24,15 @@ body{
 
 }
 
+#cor {
+    padding: 16px 32px;
+    font-size: 24px;
+    outline: none;
+
+
+}
+
+
 #trocarImagem{
     padding: 16px 32px;
     font-size: 24px;
