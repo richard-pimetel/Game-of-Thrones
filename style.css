@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --imagem1: url('./img/img1\ sonic.jpg');
+    --imagem2: url('./img/guerra\ dos\ tronos.jpg');
+    --imagem3: url('./img/bolsa-de-estudo-na-Itália.jpg');
+    --imagem4: url('./img/camisa_corinthians_1-e1724771296103.webp');
+    --imagem5: url('./img/jogo-do-tigrinho-fortune-tiger.jpeg');
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--imagem1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#trocarImagem{
+    padding: 16px 32px;
+    font-size: 24px;
+    cursor: pointer;
+}
